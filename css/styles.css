@@ -132,7 +132,19 @@ hr {
     color: #eaf6f6;
   }
 
-
+  .pic{
+    
+    position:relative;
+    animation-name:ani;
+    animation-duration:10s;
+  }
+  
+  @keyframes ani{
+    0% {left:0px;top:0px;}
+    50% {left:200px; top:0px;}
+    100%{left:0px; top:0px}
+    
+  }
 
 
 
